@@ -5,7 +5,10 @@
 */
 
 //CODE HERE
-
+// function helloWorld(){
+//   console.log('Hello, world!')
+// }
+// helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 /*
@@ -15,7 +18,10 @@
 */
 
 //CODE HERE
-
+// function printName(name){
+//   console.log(name)
+// }
+//   printName('Cameron')
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -29,8 +35,11 @@
 */
 
 //CODE HERE
-
-
+// function greeting(name){
+//   let newGreeting = String(name)
+//   console.log(`Hello, ${newGreeting}`)
+// }
+// greeting('Jake')
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called add that takes in two parameters 
@@ -40,7 +49,19 @@
 */
 
 //CODE HERE
+// function add(num1,num2){
+//   let add2 = Number(num1)
+//   let add3 = Number(num2)
+//   // console.log(num1 + num2)
+//   return add2 + add3
+// }
+  
+//   let sum = add(5,3)
 
+//   console.log(sum)
+
+  
+  
 
 ////////////////// PROBLEM 5 ////////////////////
 /*
@@ -52,8 +73,20 @@
 */
 
 //CODE HERE
+// function nameCheck(name){
+//   if (name.includes('Steven')){
+//     console.log('What is up Steven!')
+//     }else if(name.includes('Bryan')){
+//       console.log('Hey Bryan!')
+//     }else{
+//       console.log(`Cool name, ${name}`)
+//     }
+
+//   }
+//   nameGreeting = nameCheck('Dallin')
 
 
+ 
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
@@ -65,6 +98,23 @@
 */
 
 //CODE HERE
+// function faveColorFinder(color){
+//   let faveColor = String(color)
+//   if (color.includes('red')){
+//     console.log('red is a great color')
+//     }else if(color.includes('green')){
+//       console.log('green is a solid favorite color')
+//     }else if(color.includes('black')){
+//       console.log('so trendy')
+//     }else{
+//       console.log('you need to evaluate your favorite color choice')
+//       return 
+//     }
+
+//   }
+//    let colorRating = faveColorFinder('black')
+
+   
 
 
 ////////////////// PROBLEM 7 ////////////////////
@@ -76,7 +126,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
+// function printAllNames(namesArr){
+//   for (let i = 0; i < namesArr.length; i++){
+//     console.log(namesArr[i])
+//   }
+// }
+// printAllNames(namesArr)
 
 ////////////////// PROBLEM 8 ////////////////////
 /*
@@ -87,8 +142,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+function thatsOdd(number){
+  if(number % 2 === 0){
+    console.log('That is not odd!')
+  }else{
+    console.log('That is odd indeed!')
+  }
+}
+let oddChecker = thatsOdd(3)
 ////////////////// PROBLEM 9 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 /* 
